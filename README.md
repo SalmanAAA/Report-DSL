@@ -3,8 +3,6 @@
 
 # 📊 Report DSL – Transform Your Data into Insightful Reports in Minutes, Not Hours!
 
-# 📊 Report DSL – Transform Your Data into Insightful Reports in Minutes, Not Hours!
-
 <div align="center">
 
 ![Report DSL](https://img.shields.io/badge/Report_DSL-Business_Intelligence_Simplified-blue)
