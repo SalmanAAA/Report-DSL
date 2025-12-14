@@ -100,18 +100,47 @@ Step 1: Install
 pip install report-dsl
 ```
 Step 2: Write Your First Report
+
+Create a file called sales_report.rdsl:
+example
 ```
-REPORT MyFirstReport TITLE "My First DSL Report";
-DATA_SOURCE Sales: TYPE CSV PATH "sales_data.csv";
-AGGREGATE Total SUM(amount) GROUP_BY region;
+REPORT MonthlySales TITLE "January 2024 Sales Report";
+
+DATA_SOURCE SalesDB: TYPE SQL_DB QUERY "SELECT region, amount, units, date FROM sales";
+
+FILTER {
+    date >= "2024-01-01";
+    region != "Test";
+}
+
+AGGREGATE Revenue SUM(amount) GROUP_BY region;
+AGGREGATE UnitsSold SUM(units) GROUP_BY region;
+CALCULATE AvgPrice AS Revenue / UnitsSold;
+
 LAYOUT TABLE_VIEW {
-    COLUMN region AS "Region";
-    COLUMN Total AS "Total Sales";
+    COLUMN region AS "Sales Region";
+    COLUMN Revenue AS "Total Revenue" FORMAT "CURRENCY";
+    COLUMN UnitsSold AS "Units Sold";
+    COLUMN AvgPrice AS "Average Price" FORMAT "DECIMAL_2";
+    SORT_BY Revenue DESC;
 }
 ```
-Step 3: Generate
+Step 3: Run the Report
 ```
-report-dsl generate sales_report.rdsl
+python main_report.py sales_report.rdsl
+```
+Step 4: Get The Output
+```
+✅ Report generated successfully!
+
+📊 Table Output:
+| Sales Region | Total Revenue | Units Sold | Average Price |
+|--------------|---------------|------------|---------------|
+| West         | Rp 12,500     | 50         | 250.00        |
+| East         | Rp 8,300      | 35         | 237.14        |
+| North        | Rp 4,750      | 20         | 237.50        |
+
+📈 Chart saved as: MonthlySales_chart_bar.png
 ```
 
 # 🚀 Why Your Team Will Love Report DSL
