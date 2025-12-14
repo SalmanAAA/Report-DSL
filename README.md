@@ -3,22 +3,20 @@
 
 # 📊 Report DSL – Transform Your Data into Insightful Reports in Minutes, Not Hours!
 
+# 📊 Report DSL – Transform Your Data into Insightful Reports in Minutes, Not Hours!
+
 <div align="center">
 
-[![Report DSL](https://img.shields.io/badge/📊_Report_DSL-Business_Intelligence_Simplified-blue)](https://github.com/yourusername/report-dsl)
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-green)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Powered by ANTLR4](https://img.shields.io/badge/powered_by-ANTLR4-orange)](https://www.antlr.org/)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/report-dsl?style=social)](https://github.com/yourusername/report-dsl/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/report-dsl)](https://github.com/yourusername/report-dsl/issues)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/report-dsl?style=social)](https://github.com/yourusername/report-dsl/network/members)
+![Report DSL](https://img.shields.io/badge/Report_DSL-Business_Intelligence_Simplified-blue)
+![Python](https://img.shields.io/badge/Python-3.8+-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![ANTLR](https://img.shields.io/badge/Powered_by-ANTLR4-orange)
 
 **Stop writing complex reporting code. Start declaring what you want, not how to get it.**
 
-[🚀 Get Started](#-getting-started) • [📚 Documentation](#-documentation) • [💬 Discuss](https://github.com/yourusername/report-dsl/discussions)
-
 </div>
-Stop writing complex reporting code. Start declaring what you want, not how to get it.
+
+
 # 🚀 Features
 - Declarative Syntax – Write reports using a clear, English-like structure
 
