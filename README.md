@@ -10,7 +10,7 @@ https://img.shields.io/badge/Powered_by-ANTLR4-orange
 </div>
 
 Stop writing complex reporting code. Start declaring what you want, not how to get it.
-#🚀 Features
+# 🚀 Features
 - Declarative Syntax – Write reports using a clear, English-like structure
 
 - Data Aggregation – Support for SUM, COUNT, AVERAGE, MAX, MIN with GROUP BY
@@ -25,34 +25,34 @@ Stop writing complex reporting code. Start declaring what you want, not how to g
 
 - Extensible – Designed to work with different data sources (SQL, CSV, etc.)
 
-#🎯 The Problem Every Business Faces
+# 🎯 The Problem Every Business Faces
 "Our analysts spend 70% of their time writing and debugging SQL/Python reports instead of analyzing data."
 
 Sound familiar? You have data in databases, spreadsheets, or APIs. You need:
 
--Daily sales dashboards
+- Daily sales dashboards
 
--Monthly performance reports
+- Monthly performance reports
 
--Regional comparisons
+- Regional comparisons
 
--Executive summaries
+- Executive summaries
 
--But each report requires:
+- But each report requires:
 
--Complex SQL queries
+- Complex SQL queries
 
--Python/Pandas scripting
+- Python/Pandas scripting
 
--Formatting headaches
+- Formatting headaches
 
--Chart customization
+- Chart customization
 
--Endless debugging
+- Endless debugging
 
 Time wasted: 2-5 days per report.
 
-#💡 The Solution: Report DSL
+# 💡 The Solution: Report DSL
 Report DSL is a business-friendly language that lets you define reports in plain English, while generating production-ready outputs automatically.
 
 📖 DSL Syntax Example
@@ -88,7 +88,7 @@ Asia Pacific        $740,000      850          $870
 TOTAL               $2,880,000    
 ```
 
-##🔧 Getting Started in 5 Minutes
+## 🔧 Getting Started in 5 Minutes
 
 Step 1: Install
 ```
@@ -109,80 +109,80 @@ Step 3: Generate
 report-dsl generate sales_report.rdsl
 ```
 
-#🚀 Why Your Team Will Love Report DSL
+# 🚀 Why Your Team Will Love Report DSL
 ✅ For Business Analysts
-*No coding needed – Write reports like writing requirements
+* No coding needed – Write reports like writing requirements
 
-*Fast iteration – Change a line, regenerate in seconds
+* Fast iteration – Change a line, regenerate in seconds
 
-*Self-documenting – The DSL IS the documentation
+* Self-documenting – The DSL IS the documentation
 
-*Consistent outputs – Same formatting across all reports
+* Consistent outputs – Same formatting across all reports
 
 ✅ For IT/Development Teams
-*Reduced maintenance – One DSL engine, infinite reports
+* Reduced maintenance – One DSL engine, infinite reports
 
-*Separation of concerns – Analysts define logic, developers maintain infrastructure
+* Separation of concerns – Analysts define logic, developers maintain infrastructure
 
-*Standardization – Enforce business rules at language level
+* Standardization – Enforce business rules at language level
 
-*Extensible – Connect to any data source (SQL, CSV, APIs)
+* Extensible – Connect to any data source (SQL, CSV, APIs)
 
 ✅ For Management
-*Faster insights – Reports go from "request" to "delivered" in minutes
+* Faster insights – Reports go from "request" to "delivered" in minutes
 
-*Lower costs – Reduce analyst hours by 60-80%
+* Lower costs – Reduce analyst hours by 60-80%
 
-*Better quality – Built-in validation prevents errors
+* Better quality – Built-in validation prevents errors
 
-*Scalable – Add reports without adding developers
+* Scalable – Add reports without adding developers
 
 From that simple declaration, you get:
 
-*📊 Formatted table output
+* 📊 Formatted table output
 
-*📈 Professional bar chart (saved as PNG)
+* 📈 Professional bar chart (saved as PNG)
 
-*🔢 Aggregated calculations
+* 🔢 Aggregated calculations
 
-*🎨 Properly formatted currencies
+* 🎨 Properly formatted currencies
 
-*📋 Sorted, clean data presentation
+* 📋 Sorted, clean data presentation
 
-#📋 Feature Highlights for Business Users
+# 📋 Feature Highlights for Business Users
 ✨ Intuitive Syntax
-*Looks like English, not code
+* Looks like English, not code
 
-*Declarative – Say WHAT you want, not HOW to do it
+* Declarative – Say WHAT you want, not HOW to do it
 
-*Natural flow – Filter → Aggregate → Calculate → Present
+* Natural flow – Filter → Aggregate → Calculate → Present
 
 🛡️ Built-in Quality
-*Automatic validation – Catch errors before running
+* Automatic validation – Catch errors before running
 
-*Consistent formatting – All reports follow company standards
+* Consistent formatting – All reports follow company standards
 
-*Data type checking – Prevent "apples vs oranges" mistakes
+* Data type checking – Prevent "apples vs oranges" mistakes
 
 📊 Professional Outputs
-*Multiple formats – Tables, bar charts, pie charts
+* Multiple formats – Tables, bar charts, pie charts
 
-*Automatic formatting – Currency, decimals, dates
+* Automatic formatting – Currency, decimals, dates
 
-*Sorting & filtering – Built into the language
+* Sorting & filtering – Built into the language
 
-*Export ready – PNG charts, formatted tables
+* Export ready – PNG charts, formatted tables
 
 🔌 Enterprise Ready
-*Connect anywhere – SQL databases, CSV files, APIs
+* Connect anywhere – SQL databases, CSV files, APIs
 
-*Scalable – From 10 to 10,000 reports
+* Scalable – From 10 to 10,000 reports
 
-*Version controllable – DSL files are plain text
+* Version controllable – DSL files are plain text
 
-*Collaborative – Teams can share and reuse report templates
+* Collaborative – Teams can share and reuse report templates
 
-#⭐ Why Developers Choose Report DSL
+# ⭐ Why Developers Choose Report DSL
 ```
 Technical Benefits:
 architecture: "ANTLR4-powered DSL engine"
