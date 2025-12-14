@@ -11,19 +11,19 @@ https://img.shields.io/badge/Powered_by-ANTLR4-orange
 
 Stop writing complex reporting code. Start declaring what you want, not how to get it.
 #🚀 Features
--Declarative Syntax – Write reports using a clear, English-like structure
+- Declarative Syntax – Write reports using a clear, English-like structure
 
--Data Aggregation – Support for SUM, COUNT, AVERAGE, MAX, MIN with GROUP BY
+- Data Aggregation – Support for SUM, COUNT, AVERAGE, MAX, MIN with GROUP BY
 
--Calculated Columns – Create new columns using arithmetic expressions
+- Calculated Columns – Create new columns using arithmetic expressions
 
--Flexible Filtering – Apply conditional filters on columns
+- Flexible Filtering – Apply conditional filters on columns
 
--Multiple Output Formats – Generate tables, bar charts, or pie charts
+- Multiple Output Formats – Generate tables, bar charts, or pie charts
 
--Semantic Validation – Built-in checks for data type consistency and reference integrity
+- Semantic Validation – Built-in checks for data type consistency and reference integrity
 
--Extensible – Designed to work with different data sources (SQL, CSV, etc.)
+- Extensible – Designed to work with different data sources (SQL, CSV, etc.)
 
 #🎯 The Problem Every Business Faces
 "Our analysts spend 70% of their time writing and debugging SQL/Python reports instead of analyzing data."
