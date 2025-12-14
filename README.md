@@ -18,7 +18,7 @@ Semantic Validation – Built-in checks for data type consistency and reference 
 Extensible – Designed to work with different data sources (SQL, CSV, etc.)
 
 📖 DSL Syntax Example
-REPORT Regional_Sales_Complex TITLE "Sales Analysis Report";
+'''REPORT Regional_Sales_Complex TITLE "Sales Analysis Report";
 
 DATA_SOURCE GlobalSales: TYPE SQL_DB QUERY "SELECT region, amount, cost, units, date FROM all_sales";
 
@@ -36,7 +36,7 @@ LAYOUT CHART_BAR {
     COLUMN TotalRevenue AS "Total Revenue" FORMAT "CURRENCY";
     COLUMN AvgSalePrice AS "Average Price" FORMAT "DECIMAL_2";
     SORT_BY TotalRevenue DESC;
-}
+}'''
 
 🧱 Grammar Summary
 Block	Purpose
