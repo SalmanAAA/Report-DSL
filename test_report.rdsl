@@ -1,0 +1,27 @@
+REPORT Regional_Sales_Complex TITLE "Analisis Penjualan Total Berdasarkan 6 Wilayah";
+
+DATA_SOURCE GlobalSales: TYPE SQL_DB QUERY "SELECT region, amount, cost, units, date FROM all_sales";
+
+FILTER {
+    date <= "2023-12-31"; 
+    units >= 10;
+}
+
+AGGREGATE TotalRevenue SUM(amount) GROUP_BY region;
+AGGREGATE TotalUnits SUM(units) GROUP_BY region;
+AGGREGATE TotalCost SUM(cost) GROUP_BY region;
+AGGREGATE TotalTransactions COUNT(amount) GROUP_BY region;
+AGGREGATE GlobalRevenue SUM(amount);
+
+CALCULATE AvgSalePrice AS TotalRevenue / TotalUnits;
+
+LAYOUT CHART_BAR {
+    COLUMN region AS "Wilayah Penjualan"; 
+    
+    COLUMN TotalRevenue AS "Total Pendapatan" FORMAT "CURRENCY";
+    
+    COLUMN AvgSalePrice AS "Rata-Rata Harga" FORMAT "DECIMAL_2";
+    COLUMN TotalTransactions AS "Total Transaksi";
+
+    SORT_BY TotalRevenue DESC;
+}
