@@ -1,7 +1,16 @@
 # Report-DSL
-📌 Overview
-The Report DSL is a custom language designed for creating business reports through a simple, declarative syntax. It allows users to define data sources, apply filters, perform aggregations, create calculated columns, and format output—all without writing complex code.
 
+
+📊 Report DSL – Transform Your Data into Insightful Reports in Minutes, Not Hours!
+<div align="center">
+https://img.shields.io/badge/Report_DSL-Business_Intelligence_Simplified-blue
+https://img.shields.io/badge/Python-3.8+-green
+https://img.shields.io/badge/License-MIT-yellow
+https://img.shields.io/badge/Powered_by-ANTLR4-orange
+</div>
+
+
+Stop writing complex reporting code. Start declaring what you want, not how to get it.
 🚀 Features
 Declarative Syntax – Write reports using a clear, English-like structure
 
