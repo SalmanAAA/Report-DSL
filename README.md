@@ -293,5 +293,5 @@ Transform your reporting workflow today. Your analysts will thank you tomorrow.
 </div>
 
 
-CONTRIBUTORS: SalmanAAA, Cloviszion
+CONTRIBUTORS: 1Salmonella0, Cloviszion
 
